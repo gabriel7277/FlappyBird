@@ -51,15 +51,11 @@ namespace Flappy_Birds1
             {
                 endGame();
             }
-
-
-
             if (score > 5)
             {
                 pipeSpeed = 15;
             }
         }
-
         private void gamekeyisdown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space)
