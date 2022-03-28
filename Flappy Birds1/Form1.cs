@@ -31,7 +31,7 @@ namespace Flappy_Birds1
             FlappyBird.Top += gravity;
             pipebottom.Left -= pipeSpeed;
             pipetop.Left -= pipeSpeed;
-            scoreText.Text = " core: " + score;
+            scoreText.Text = " Score: " + score;
 
             if (pipebottom.Left < -150)
             {
